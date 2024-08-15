@@ -1,0 +1,40 @@
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+
+.h-500 {
+    height: 500px !important;
+}
+
+@media (min-width: 768px) {
+    .h-md-600 {
+        height: 600px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .vh-lg-100 {
+        height: 100vh !important;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
